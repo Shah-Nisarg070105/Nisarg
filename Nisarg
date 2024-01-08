@@ -1,0 +1,26 @@
+#include<iostream>
+void sameelement(int,int);
+int main()
+{
+int a[]={'1','2','4','5','7'};
+int b[]={'1','3','4','6','7'};
+int c[5],i,j;
+for(i=0;i<5;i++)
+{
+for(j=0;j<5;j++)
+{
+sameelement(a[i],b[j]);
+}
+}
+}
+void sameelement(int a,int b)
+{
+    int c[5],i;
+
+    if(a==b)
+    {
+        c[i]=a;
+        cout<<c[i]<<"\n";
+        i++;
+    }
+}
